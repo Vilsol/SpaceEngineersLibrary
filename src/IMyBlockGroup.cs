@@ -8,9 +8,7 @@ namespace Space_Engineers_Library
 {
     public interface IMyBlockGroup
     {
-
         List<IMyTerminalBlock> Blocks { get; }
         string Name { get; }
-
     }
 }
